@@ -2,7 +2,7 @@
 This is a simple to use logging module that enable multi level and format logging without any unnecessary additions.
 
 ## How to use it
-First import and initialize the module. 
+First get the module by using `go get github.com/StevenCyb/SimpleLogging` then import and initialize the module. 
 Use the `Initialize` function to set lo *level*, *format* and (optionally) *output file* at once. 
 Otherwise, use the *set* functions as shown in the code snip below.
 ```go
